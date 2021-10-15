@@ -102,7 +102,7 @@ header .cta {
 }
 
 #homeHero {
-    background-image: url(_img/home.jpg);
+    background-image: url(home.jpg);
     background-size: cover;
     background-position:center;
 }
@@ -121,7 +121,7 @@ p {
 
 #entreprisesTitle {
     color:#FFF;
-    background-image: url(_img/entreprise-2.jpg);
+    background-image: url(entreprise-2.jpg);
     background-size: cover;
     background-position: center;
     padding: 10% 50% 10% 7%;
@@ -322,7 +322,7 @@ justify-content: space-between;
 }
 
 #importantDates {
-    background-image:url(_img/campus-region-numerique.jpeg);
+    background-image:url(campus-region-numerique.jpeg);
     background-size: cover;
     background-position: center;
     margin-top:5%;
@@ -471,7 +471,7 @@ justify-content: space-between;
 }
 
 #formationsMain {
-    background-image: url(_img/formations.jpg);
+    background-image: url(formations.jpg);
     background-size:cover;
     background-position: center;
 }
@@ -827,15 +827,15 @@ footer .right {
     }
 
     .devM {
-        background-image:url(_img/dev-web-mobile.jpg);
+        background-image:url(dev-web-mobile.jpg);
     }
 
     .prepa {
-        background-image:url(_img/prepra-dev-full-stack.jpg);
+        background-image:url(prepra-dev-full-stack.jpg);
     }
 
     .devFS {
-        background-image:url(_img/dev-full-stack.jpg);
+        background-image:url(dev-full-stack.jpg);
     }
 
     .formationDevItem {
