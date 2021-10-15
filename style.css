@@ -1,0 +1,870 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+
+h2 {
+    font-family: 'Enriqueta', serif;
+    color: #FF4300;
+    font-weight: normal;
+    text-align: center;
+    font-size: 2em;
+    margin: 3%;
+}
+
+h3 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: normal;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 4% 0;
+    font-size: 1.3em;
+}
+
+.cta, .cta-2 {
+    color:#FFF;
+    text-decoration: none;
+    text-align: center;
+    padding: 1.5%;
+    border-radius:1.5rem 0.25rem;
+    font-family: 'Comfortaa', cursive;
+}
+
+.cta {
+    background-color:#FF4300;
+    border:solid 2px #FFF;
+}
+
+.cta:hover {
+    background-color:#FFF;
+    color:#FF4300;
+    border:solid 2px #FF4300;
+    transition: all 0.5s ease-out;
+}
+
+.cta-2 {
+    background-color:#000;
+}
+
+header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+    padding: 2% 0;
+    font-family: 'Comfortaa', cursive;
+}
+
+header a {
+    width:25%;
+}
+
+header a .logo {
+    width: 100%;
+}
+
+header nav {
+    width: 50%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+header .cta {
+    width: 12%;
+    padding: 1%;
+}
+
+#homeHero {
+    background-image: url(_img/home.jpg);
+    background-size: cover;
+    background-position:center;
+}
+
+#homeHero #heroContent {
+    background-color: rgba(239, 239, 239, 0.80);
+    width: 40%;
+    margin-left:50%;
+    padding: 5%;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 2em;
+}
+
+#entreprisesTitle {
+    color:#FFF;
+    background-image: url(_img/entreprise-2.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10% 50% 10% 7%;
+    font-family: 'Enriqueta', serif;
+    margin: 0;
+}
+
+#homeHero h1, #homeHero #heroContent .heroSubTitle {
+    font-family: 'Enriqueta', serif;
+}
+
+#homeHero #heroContent .heroSubTitle {
+    font-size:1.2em;
+}
+
+#homeHero .cta, #homeEntreprises .cta, #importantDates .cta {
+    width: 50%;
+    display: flex;
+    margin:5% auto 0;
+    justify-content: center;
+    padding: 3%;
+}
+
+#whyIT p {
+    width: 85%;
+    margin: auto;
+}
+
+#candidats {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: 7% auto;
+}
+
+#candidats div {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#candidats div .picto {
+    width: 30%;
+}
+
+#candidats div p {
+    text-align: center;
+    margin-top: 10%;
+}
+
+#processusQualifie {
+    width: 100%;
+    background-color:#F5F5F5;
+    padding-bottom: 3%;
+}
+
+#processusQualifie section{
+    width: 85%;
+    margin: auto;
+    background-color:#F5F5F5;
+    display: flex;
+    justify-content: space-between;
+}
+
+#processusQualifie section img {
+    width: 40%;
+    height: min-content;
+}
+
+#processusQualifie section ul li {
+    font-family: 'Roboto', sans-serif;
+    list-style: square;
+    font-size:0.9em;
+    line-height: 2em;
+}
+
+#processusQualifie .cta, #embaucherAlternant .cta {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    margin: 5% auto;
+}
+
+#formations p {
+    width: 85%;
+    margin: auto;
+}
+
+#formationDev, #formationCyberData {
+    margin: auto;
+    display:flex;
+    justify-content: center;
+}
+
+.formationDevItem {
+    margin-bottom:7%;
+    border: solid 1px #000;
+    width: 25%;
+    padding: 0 0 3% 0;
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.formationDevItem img {
+    width: 100%;  
+}
+
+.formationDevContent {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#formations .formationDevContent p {
+    margin: 0 auto;
+}
+
+#formations .cta-2 {
+    width: 75%;
+    padding: 7%;
+    margin: 10% auto 2%;;
+}
+
+#formationDev {
+    width: 85%;
+    justify-content: space-around;
+}
+
+#formationCyberData {
+    background-color: #F5F5F5;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 5%;
+}
+
+.formationCyberDataItem {
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: solid 1px #000;
+    width: 20%;
+    margin: 0 1%;
+    justify-content: space-between;
+}
+
+.formationCyberDataItem img {
+    width: 100%;
+}
+
+#formations  .formationCyberDataContent {
+    font-family: 'Roboto', sans-serif;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#formations .formationCyberDataContent p {
+    width: 100%;
+    padding: 0;
+}
+
+#formations .formationCyberDataContent .cta-2 {
+    margin: 5% auto;
+}
+
+#homeEntreprises {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#homeEntreprises h2{
+    width: 100%;
+}
+
+#homeEntreprises div {
+    width: 45%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#homeEntreprises div h3 {
+    text-align: left;
+}
+
+
+#homeEntreprises img {
+    width: 50%;
+}
+
+#importantDates {
+    background-image:url(_img/campus-region-numerique.jpeg);
+    background-size: cover;
+    background-position: center;
+    margin-top:5%;
+}
+
+.darken {
+    background-color:rgba(0, 0, 0, 0.7);
+    padding: 5% 10% 7%;
+}
+
+#importantDates h2 {
+    font-size:1.7em;
+}
+
+#importantDates h3 {
+    color:#FFF;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+
+#importantDates .cta {
+    width: 20%;
+    padding:1%;
+}
+
+#datesPO {
+    color:#FFF;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    font-family: 1.1em;
+    margin-bottom:3%;
+}
+
+#nextSessions {
+    color:#FFF;
+   display: flex;
+   text-align: center; 
+   justify-content: space-between;
+   font-size: 0.9em;
+}
+
+#nextSessions div {
+    width: 30%;
+}
+
+#nextSessions .datesSession {
+    color: #FF4300;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.rassurance {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 5% auto;
+}
+
+.rassurance img {
+    width: 13%;
+    height: 100%;
+}
+
+#contactBlock {
+    background-color: #F5F5F5;
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#contactBlock p {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.2em;
+}
+
+#contactCta .cta {
+    width: 80%;
+    margin: 3%;
+    padding: 3%;
+}
+
+#contactCta {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+
+#contactCta .alter {
+    color:#FF4300;
+    border:solid 1px #FF4300;
+    background-color:#FFF;
+}
+
+#recruterAlternant {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+
+#recruterAlternant div {
+    width: 50%;
+}
+
+#recruterAlternant img {
+    width: 40%;
+    height: min-content;
+}
+
+#embaucherAlternant {
+    background-color: #F5F5F5;
+    padding-bottom: 3%;
+}
+
+#embaucherAlternant ol {
+    font-family: 'Roboto', sans-serif;
+    padding:0 5% 0 10% ;
+    font-size: 0.9em;
+    line-height: 2em;
+}
+
+#fonctionTutorale {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+}
+
+#fonctionTutorale div {
+    width: 50%;
+}
+
+#fonctionTutorale img {
+    width: 40%;
+    height: min-content;
+}
+
+#formationsMain {
+    background-image: url(_img/formations.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+#formationsMain .darken h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#formationsMain .darken h1 {
+    text-align: center;
+    color: #FFF;
+    text-shadow: 1px 1px 2px black;
+}
+
+#formationsMain .darken nav {
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+#formationsMain .darken nav a {
+    text-decoration: none;
+    color: #FFF;
+    text-shadow: 1px 1px 2px black;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    width: 30%;
+}
+
+.formationBlock {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 0;
+}
+
+
+.pair {
+    flex-direction: row-reverse;
+    background-color: #F5F5F5;
+}
+
+.formationText {
+    width: 45%;
+    padding:0 5%;
+}
+
+.formationText h3 {
+    text-align: left;
+}
+
+.formationText p {
+    font-size: 0.9em;
+}
+
+.formationText .cta {
+    padding: 3%;
+    margin: 7% 0 0 0;
+    display: block;
+    width: 60%;
+}
+
+.formationBlock img {
+    width: 45%;
+    height: min-content;
+    padding-left: 5%;
+}
+
+.pair img {
+    padding-right:5%;
+    flex-direction: row-reverse;
+    background-color: #F5F5F5;
+}
+
+footer {
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 85%;
+    margin:auto;
+    padding: 5% 0;
+}
+
+footer section {
+    width: 30%;
+}
+
+footer section nav ul {
+    margin:0;
+    padding:0;
+}
+
+footer section nav ul li {
+    list-style:none;
+    margin-bottom:7%;
+}
+
+footer section nav ul li a {
+    text-decoration:none;
+    color: #000;
+    font-family: 'Comfortaa', cursive;
+    font-size:1em;
+}
+
+footer address {
+    width: 40%;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-style: normal;
+    font-size: 0.8em;
+}
+
+footer address p , footer #social ul li a{
+    font-family: 'Comfortaa', cursive;
+    line-height: normal;
+}
+
+footer address a , footer #social ul li a{
+    color:#FF4300;
+    line-height: 2em;
+}
+
+footer img {
+    width: 80%;
+}
+
+footer #social {
+    width: 70%;
+    margin: 3% auto;
+}
+
+footer #social ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+footer #social ul li {
+    list-style: none;
+}
+
+footer #copyright {
+    width: 100%;
+    text-align: center;
+    font-size: 0.7em;
+    font-family: 'Roboto', sans-serif;
+}
+
+footer .right {
+    text-align: right;
+}
+
+
+@media screen and (max-width:767px) {
+    h2 {
+        margin: 5%;
+    }
+
+    h3 {
+        padding: 5% 0;
+    }
+    
+    header {
+        flex-direction: column;
+        padding: 5%;
+        width: 90%;
+    }
+    header a {
+        width:30%;
+    }
+    
+    header nav {
+        width: 70%;
+        margin: 3% 0; 
+    }
+
+    header .cta {
+        width: 25%;
+    }
+
+    .cta {
+        width: 20%;
+        margin-top:1%;
+        font-size: 0.9em;
+    }
+
+    p {
+        font-size: 0.9em;
+    }
+
+    #homeHero {
+        padding: 5%;
+    }
+
+    #homeHero #heroContent {
+        width: 80%;
+        margin:auto;
+        padding: 10%;
+    }
+
+    #homeEntreprises img {
+        width: 100%;
+    }
+
+    #homeEntreprises div {
+        width: 100%;
+    }
+
+    #formationDev {
+        flex-direction: column;
+    }
+
+    .formationDevItem {
+        display:flex;
+        flex-direction: row;
+        padding: 0;
+        width: 100%;
+    }
+
+    .formationDevItem img {
+        width: 100%;  
+    }
+
+    .formationDevContent {
+        width: 45%;
+        padding: 5%;
+    }
+
+    .formationCyberDataItem {
+        width: 40%;
+        margin: 0 2% 7%;
+    }
+
+    #datesPO {
+
+        margin-bottom:7%;
+    }
+
+    #entreprisesTitle {
+        padding: 10% 30% 10% 7%;
+    }
+
+    #processusQualifie section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #recruterAlternant, #fonctionTutorale {
+        display: flex;
+        width: 85%;
+        margin: auto;
+    }
+
+    #fonctionTutorale {
+        flex-direction: column;
+    }
+
+    #recruterAlternant {
+        flex-direction: column-reverse;
+        padding-bottom: 5%;
+    }
+    
+    #recruterAlternant div, #fonctionTutorale div {
+        width: 100%;
+    }
+    
+    #recruterAlternant img,#fonctionTutorale img {
+        width: 75%;
+        margin: 0 auto 5%;
+        height: min-content;
+    }
+
+    .formationBlock {
+        flex-direction: column;
+    }
+
+    .formationBlock img {
+        width: 85%;
+        padding: 0;
+        margin: auto;
+    }
+
+    .formationText {
+        width: 85%;
+        padding: 0;
+        margin: auto;
+    }
+
+    .formationText .cta {
+        margin: 7% auto;
+    }
+
+    #contactBlock p {
+        font-size: 0.8em;
+    }
+
+    #contactCta .cta {
+        width: 75%;
+        padding:5%;
+        margin: 5%;
+        font-size: 0.8em;
+    }
+
+    footer section nav ul li a {
+        font-size:0.7em;
+    }
+}
+
+@media screen and (max-width:576px) {
+    header .logo {
+        width: 50%;
+    }
+
+    header nav {
+        width: 100%;
+    }
+
+    header nav ul li a {
+        font-size: 0.8em;
+    }
+
+    header .cta {
+        width: 35%;
+        padding: 2%;
+    }
+
+    #homeHero h1 {
+        font-size: 1.8em;
+    }
+
+    #entreprisesTitle {
+        padding: 10% 20% 10% 7%;
+    }
+
+    #processusQualifie section img {
+        width: 70%;
+        margin-bottom: 5%;
+    }
+
+    #processusQualifie .cta, #embaucherAlternant .cta {
+        width: 30%;
+        padding:2%;    
+    }
+
+    .devM {
+        background-image:url(_img/dev-web-mobile.jpg);
+    }
+
+    .prepa {
+        background-image:url(_img/prepra-dev-full-stack.jpg);
+    }
+
+    .devFS {
+        background-image:url(_img/dev-full-stack.jpg);
+    }
+
+    .formationDevItem {
+        background-size:contain;
+    }
+
+    .formationDevItem img {
+        display: none;
+    }
+
+    .formationDevContent {
+        text-align: center;
+        width: 100%;
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    #formations .formationDevContent p {
+        margin: 3% auto;
+    }
+
+    #formations .cta-2 {
+        width: 75%;
+        padding: 7%;
+    }
+
+    #importantDates .cta {
+        width: 50%;
+        padding:3%;
+    }
+
+    #formationsMain nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #formationsMain nav a {
+        margin: 2% 0;
+    }
+
+    #contactBlock p {
+        width: 50%;
+    }
+
+    #contactCta .cta {
+        width: 85%;
+        margin: 5% 0;
+    }
+
+    footer address a {
+        font-size:0.8em;
+    }
+
+    footer #social ul {
+flex-wrap: wrap;
+    }
+    footer #social ul li {
+        width: 50%;
+text-align: center;
+font-size: 0.8em;
+    }
+}
