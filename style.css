@@ -503,6 +503,12 @@ justify-content: space-between;
     width: 30%;
 }
 
+#formationsMain .darken nav a:hover {
+    text-decoration: underline;
+    color: #FF4300;
+    transition: all 0.3s ease-out;
+}
+
 .formationBlock {
     display: flex;
     justify-content: space-between;
