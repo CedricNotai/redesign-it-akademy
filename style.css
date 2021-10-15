@@ -33,18 +33,26 @@ h3 {
 
 .cta {
     background-color:#FF4300;
-    border:solid 2px #FFF;
+    border:solid 1px rgba(255, 255, 255, 0);
 }
 
 .cta:hover {
     background-color:#FFF;
     color:#FF4300;
-    border:solid 2px #FF4300;
-    transition: all 0.5s ease-out;
+    border:solid 1px #FF4300;
+    transition:all 0.3s ease-out;
 }
 
 .cta-2 {
     background-color:#000;
+    border:solid 1px rgba(255, 255, 255, 0);
+}
+
+.cta-2:hover {
+    background-color:#FFF;
+    color:#000;
+    border:solid 1px #000;
+    transition:all 0.3s ease-out;
 }
 
 header {
@@ -80,6 +88,12 @@ header nav ul {
 header nav ul li a {
     text-decoration: none;
     color: #000;
+}
+
+header nav ul li a:hover {
+    color: #FF4300;
+    text-decoration: underline;
+    transition:all 0.3s ease-out;
 }
 
 header .cta {
@@ -404,6 +418,14 @@ justify-content: space-between;
     background-color:#FFF;
 }
 
+#contactCta .alter:hover {
+    color:#FFF;
+    border:solid 1px #FFF;
+    background-color:#FF4300;
+    border:solid 1px #FFF;
+
+}
+
 #recruterAlternant {
     display: flex;
     justify-content: space-between;
@@ -554,6 +576,13 @@ footer section nav ul li a {
     font-family: 'Comfortaa', cursive;
     font-size:1em;
 }
+
+footer section nav ul li a:hover {
+    color: #FF4300;
+    text-decoration: underline;
+    transition:all 0.3s ease-out;
+}
+
 
 footer address {
     width: 40%;
